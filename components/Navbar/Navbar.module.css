@@ -1,0 +1,76 @@
+.navbar{
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo,.linkedinLogo{
+    display: flex;
+    align-items: center;
+}
+
+
+.linkedin{
+    height: 34px;
+    width: 40px;
+    color: #0E76A8;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background-color: #eef3f8;
+    margin-left: 1rem;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.search > input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+    padding: 10px;
+    
+}
+
+.searchIcon{
+    padding-left: 10px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.icons > img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.meIcon{
+    border-right: 1px solid rgb(226, 224, 224);
+    padding-right: 10px;
+}
+.icon{
+    font-size: 26px;
+}
+
+.icons > p,.me > p{
+    font-size: 12px;
+}

@@ -1,0 +1,42 @@
+.card{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header > p{
+    margin-right: 6px;
+}
+.imgs{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn{
+    border: none;
+    padding: 4px 15px;
+    font-weight: bolder;
+    border: 1px solid #0e76a8;
+    color: #0e76a8;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    letter-spacing: 1.3px;
+}
+
+.btn:hover{
+    border: 2px solid #0e76a8;
+    background-color: #e7eff3;
+    transition-duration: 650ms;
+}
+
+.btngrp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

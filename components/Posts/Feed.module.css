@@ -1,0 +1,82 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+}
+.headerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header{
+    display: flex;
+}
+.header > img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.moreIcon{
+    font-size: 25px;
+    cursor: pointer;
+}
+.moreItem{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.icon{
+    font-size: 60px;
+}
+
+.globe{
+    display: flex;
+}
+.body{
+    width: 100%;
+}
+
+.body > img{
+    width: 100%;
+}
+
+.iconsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.name *{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.reactionIcons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    color: gray;
+    width: 100%;
+    border-radius: 30px;
+    padding: 10px 0;
+}
+.reactionIcons:hover{
+    background-color: rgb(241, 237, 237);
+}
+.icons{
+    font-size: 25px;
+}
+.globe{
+    margin: 5px 0;
+}

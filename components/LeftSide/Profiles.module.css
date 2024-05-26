@@ -1,0 +1,70 @@
+.card{
+    width: 100%;
+}
+
+.background{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url("https://images.unsplash.com/photo-1536566482680-fca31930a0bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+}
+
+.card * {
+    background-color: white;
+}
+.textbody{
+    padding: 20px;
+}
+
+.img{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -50%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.connections, .premium,.network{
+    text-align: start;
+    padding: 10px 0;
+    font-size: 12px;
+}
+.connections:first-child, .premium:first-child,.network:first-child{
+    font-family: monospace;
+    color: rgb(216, 38, 38);
+}
+
+.connections{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.connText{
+    color: dodgerblue;
+}
+
+.items{
+    display: flex;
+}
+
+.name > p{
+    font-size: 12px;
+}
+.items{
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
